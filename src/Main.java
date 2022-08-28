@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         //task1
-        byte bananas = 6;
-        System.out.println("Значение переменной bananas с типом byte равно " + bananas);
+        byte tea = 6;
+        System.out.println("Значение переменной tea с типом byte равно " + tea);
         short apples = 30;
         System.out.println("Значение переменной apples с типом short равно " + apples);
         int cherry = 40;
@@ -47,6 +47,57 @@ public class Main {
         System.out.println("За 1 месяц машины производят бутылок " +in1Month+ " штук");
 
         //task5
+        byte whiteBanks = 2;
+        byte brownBanks = 4;
+        byte totalBanks = 120;
+        int totalBanksOn1Class = whiteBanks + brownBanks;
+        int totalClasses = totalBanks/(totalBanksOn1Class);
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " +
+                2*totalClasses + " банок белой краски и " + 4*totalClasses + " банок коричневой краски");
+
+        //task6
+        int weightBananaOnGram = 80;
+        int weightMilkOnGram = 105;
+        int weightIceCreamOnGram = 100;
+        int weightEggOnGram = 70;
+        int totalWeight = 5*weightBananaOnGram + 2*weightMilkOnGram + 2*weightIceCreamOnGram + 4*weightEggOnGram;
+        System.out.println("Вес спорт-завтрака " + totalWeight/1000.0 + " кг");
+
+        //task7
+
+        int weightInKg = 7;
+        int weightInGram = weightInKg*1000;
+        int daysIf250 = weightInGram/250;
+        System.out.println(daysIf250 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        int daysIf500 = weightInGram/500;
+        System.out.println(daysIf500 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм");
+        int daysOnAverage = (daysIf250 + daysIf500)/2;
+        System.out.println(daysOnAverage + "  день может потребоваться дней в среднем, чтобы добиться результата похудения");
+
+        //task8
+        int salaryMasha = 67_760;
+        float salaryUpMasha = salaryMasha*1.1f;
+        System.out.println(salaryUpMasha);
+        float differenceSalaryMasha = salaryUpMasha*12 - salaryMasha*12;
+        System.out.println("Маша теперь получает " + salaryUpMasha + " рублей. Годовой доход вырос на "
+                + differenceSalaryMasha + " рублей");
+        int salaryDenis = 83_690;
+        float salaryUpDenis = salaryDenis*1.1f;
+        System.out.println(salaryUpDenis);
+        float differenceSalaryDenis = salaryUpDenis*12 - salaryDenis*12;
+        System.out.println("Денис теперь получает " + salaryUpDenis + " рублей. Годовой доход вырос на "
+                + differenceSalaryDenis + " рублей");
+        int salaryKristina = 76_230;
+        float salaryUpKristina = salaryKristina*1.1f;
+        System.out.println(salaryUpKristina);
+        float differenceSalaryKristina = salaryUpKristina*12 - salaryKristina*12;
+        System.out.println("Кристина теперь получает " + salaryUpKristina + " рублей. Годовой доход вырос на "
+                + differenceSalaryKristina + " рублей");
+
+
+
+
+
 
 
 
